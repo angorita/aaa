@@ -6,7 +6,7 @@ import (
 
 	// "github.com/angorita/aaa/ejercicios"
 	"github.com/angorita/aaa/iteraciones"
-	"github.com/angorita/aaa/teclado"
+	// "github.com/angorita/aaa/teclado"
 )
 
 func main() {
@@ -31,6 +31,9 @@ func main() {
 	// num, texto := ejercicios.Convertir("127")
 	// fmt.Println(num)
 	// fmt.Println(texto)
-	teclado.Ingreso()
+	// teclado.Ingreso()
+	iteraciones.Iterar()
+	iteraciones.Break()
+	iteraciones.Continue()
 
 }
