@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "runtime"
 
-	"github.com/angorita/aaa/ejercicios"
-	// "github.com/angorita/aaa/variables"
+	// "github.com/angorita/aaa/ejercicios"
+	"github.com/angorita/aaa/iteraciones"
+	"github.com/angorita/aaa/teclado"
 )
 
 func main() {
@@ -27,7 +28,9 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s\n", os)
 	// }
-	num, texto := ejercicios.Convertir("127")
-	fmt.Println(num)
-	fmt.Println(texto)
+	// num, texto := ejercicios.Convertir("127")
+	// fmt.Println(num)
+	// fmt.Println(texto)
+	teclado.Ingreso()
+
 }
