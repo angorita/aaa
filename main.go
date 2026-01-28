@@ -4,7 +4,7 @@ import (
 	// "fmt"
 	// "runtime"
 
-	// "github.com/angorita/aaa/ejercicios"
+	"github.com/angorita/aaa/ejercicios"
 	"github.com/angorita/aaa/iteraciones"
 	// "github.com/angorita/aaa/teclado"
 )
@@ -35,5 +35,6 @@ func main() {
 	iteraciones.Iterar()
 	iteraciones.Break()
 	iteraciones.Continue()
+	ejercicios.Tabla("9")
 
 }
