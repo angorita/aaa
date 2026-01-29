@@ -4,8 +4,7 @@ import (
 	// "fmt"
 	// "runtime"
 
-	"github.com/angorita/aaa/ejercicios"
-	"github.com/angorita/aaa/iteraciones"
+	"github.com/angorita/aaa/files"
 	// "github.com/angorita/aaa/teclado"
 )
 
@@ -32,9 +31,12 @@ func main() {
 	// fmt.Println(num)
 	// fmt.Println(texto)
 	// teclado.Ingreso()
-	iteraciones.Iterar()
-	iteraciones.Break()
-	iteraciones.Continue()
-	ejercicios.Tabla()
+	// iteraciones.Iterar()
+	// iteraciones.Break()
+	// iteraciones.Continue()
+	// ejercicios.Tabla()
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	files.LeoArchivo()
 
 }
