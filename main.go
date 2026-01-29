@@ -40,6 +40,7 @@ func main() {
 	// files.SumaTabla()
 	// files.LeoArchivo()
 	// funciones.Calculos()
-	funciones.LlamarClosure()
+	// funciones.LlamarClosure()
+	funciones.Exponencia(3)
 
 }
