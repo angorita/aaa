@@ -5,6 +5,7 @@ import (
 	// "runtime"
 
 	"github.com/angorita/aaa/files"
+	"github.com/angorita/aaa/funciones"
 	// "github.com/angorita/aaa/teclado"
 )
 
@@ -38,5 +39,6 @@ func main() {
 	// files.GrabaTabla()
 	// files.SumaTabla()
 	files.LeoArchivo()
+	funciones.Calculos()
 
 }
