@@ -35,6 +35,6 @@ func main() {
 	iteraciones.Iterar()
 	iteraciones.Break()
 	iteraciones.Continue()
-	ejercicios.Tabla("9")
+	ejercicios.Tabla()
 
 }

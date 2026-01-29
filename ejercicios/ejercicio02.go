@@ -1,16 +1,30 @@
 package ejercicios
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strconv"
 )
 
-func Tabla(numero string) {
-	num, err := strconv.Atoi(numero)
-	if err != nil {
-		fmt.Println("Error en el ingreso de numero" + err.Error())
+func Tabla() {
+	scanner := bufio.NewScanner(os.Stdin)
+	var numero int
+	var err error
+	for {
+		fmt.Println("Ingrese un numero: ")
+		if scanner.Scan() {
+			numero, err = strconv.Atoi(scanner.Text())
+			if err != nil {
+				continue
+			} else {
+				break
+			}
+
+		}
 	}
-	for i := 0; i <= 10; i++ {
-		fmt.Printf("%d %d", num, i*num)
+	fmt.Print("Tabla del : ", numero)
+	for i := 1; i <= 10; i++ {
+		fmt.Printf("\n%d x %d = %d", numero, i, i*numero)
 	}
 }
