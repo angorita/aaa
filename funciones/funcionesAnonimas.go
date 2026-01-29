@@ -3,12 +3,16 @@ package funciones
 import "fmt"
 
 func Calculos() {
-	var numero3 int = 32
-	var numero4 int = 243
+	var numero3 int = 10
+	var numero4 int = 10
 
-	suma := func(numero1, numero2 int) int {
+	calculo := func(numero1, numero2 int) int {
 		return numero1 + numero2 + numero3 + numero4
 	}
-	fmt.Println(suma(10, 23))
+    fmt.Println(calculo(10, 10))
+    calculo=func(numero1,numero2 int)int{
+        return numero1*numero2*numero3
+    }
 
+    fmt.Println(calculo(10,10))
 }

@@ -4,7 +4,7 @@ import (
 	// "fmt"
 	// "runtime"
 
-	"github.com/angorita/aaa/files"
+	//"github.com/angorita/aaa/files"
 	"github.com/angorita/aaa/funciones"
 	// "github.com/angorita/aaa/teclado"
 )
@@ -38,7 +38,8 @@ func main() {
 	// ejercicios.Tabla()
 	// files.GrabaTabla()
 	// files.SumaTabla()
-	files.LeoArchivo()
-	funciones.Calculos()
+	// files.LeoArchivo()
+	// funciones.Calculos()
+	funciones.LlamarClosure()
 
 }
