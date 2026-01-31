@@ -6,7 +6,7 @@ import (
 
 	//"github.com/angorita/aaa/files"
 
-	"github.com/angorita/aaa/arreglos_slices"
+	"github.com/angorita/aaa/users"
 	// "github.com/angorita/aaa/teclado"
 )
 
@@ -45,6 +45,8 @@ func main() {
 	// funciones.Exponencia(2)
 	// fmt.Println(funciones.Fibonacci(40))
 	// fmt.Println(funciones.FibonacciIterativo(30))
-	arreglos_slices.Slice()
-	arreglos_slices.River()
+	// arreglos_slices.Slice()
+	// arreglos_slices.River()
+	users.Nurse()
+	users.AltaUsuario()
 }
