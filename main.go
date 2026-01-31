@@ -5,7 +5,8 @@ import (
 	// "runtime"
 
 	//"github.com/angorita/aaa/files"
-	"github.com/angorita/aaa/funciones"
+
+	"github.com/angorita/aaa/arreglos_slices"
 	// "github.com/angorita/aaa/teclado"
 )
 
@@ -41,6 +42,9 @@ func main() {
 	// files.LeoArchivo()
 	// funciones.Calculos()
 	// funciones.LlamarClosure()
-	funciones.Exponencia(3)
-
+	// funciones.Exponencia(2)
+	// fmt.Println(funciones.Fibonacci(40))
+	// fmt.Println(funciones.FibonacciIterativo(30))
+	arreglos_slices.Slice()
+	arreglos_slices.River()
 }
